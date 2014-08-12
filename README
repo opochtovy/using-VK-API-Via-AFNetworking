@@ -1,0 +1,16 @@
+using-VK-API-Via-AFNetworking
+======================================
+
+API illustrates the work with a web-service API (VK.com API) via AFNetworking. It shows how to use VK.com API from your iPhone application including getting a user profile, posting to a user wall and uploading photos.
+
+API illustrates work with web-service using the AFNetworking framework. This is one of the most popular frameworks available for iOS / OS X. The app itself is simple: user gets 2 possibilities:
+1. to view the Friends list of specified user account from vk.com (it’s possible without authorization)
+2. to post a message with photo on the wall of authorized user account.
+
+Additional class ServerRequestManage operates with methods of VK.com API server.
+
+During my app’s realization I touched the following topics:
+
+1. How to use a web service - VK API - for such tasks as getting a user profile, posting to a user wall and uploading photos to a user wall. 
+
+2. How to use AFNetworking framework for authorization at VK API and working with our web-service VK API. 
