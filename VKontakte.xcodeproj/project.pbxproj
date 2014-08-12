@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23C8BD119796B1F006A4561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BD019796B1F006A4561 /* Foundation.framework */; };
+		A23C8BD319796B1F006A4561 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BD219796B1F006A4561 /* CoreGraphics.framework */; };
+		A23C8BD519796B1F006A4561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BD419796B1F006A4561 /* UIKit.framework */; };
+		A23C8BDB19796B1F006A4561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23C8BD919796B1F006A4561 /* InfoPlist.strings */; };
+		A23C8BDD19796B1F006A4561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C8BDC19796B1F006A4561 /* main.m */; };
+		A23C8BE119796B1F006A4561 /* AuthorizationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C8BE019796B1F006A4561 /* AuthorizationAppDelegate.m */; };
+		A23C8BE419796B1F006A4561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23C8BE219796B1F006A4561 /* Main.storyboard */; };
+		A23C8BE719796B1F006A4561 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C8BE619796B1F006A4561 /* AuthorizationViewController.m */; };
+		A23C8BE919796B1F006A4561 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23C8BE819796B1F006A4561 /* Images.xcassets */; };
+		A23C8BF019796B1F006A4561 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BEF19796B1F006A4561 /* XCTest.framework */; };
+		A23C8BF119796B1F006A4561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BD019796B1F006A4561 /* Foundation.framework */; };
+		A23C8BF219796B1F006A4561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C8BD419796B1F006A4561 /* UIKit.framework */; };
+		A23C8BFA19796B1F006A4561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23C8BF819796B1F006A4561 /* InfoPlist.strings */; };
+		A23C8BFC19796B1F006A4561 /* VKontakteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C8BFB19796B1F006A4561 /* VKontakteTests.m */; };
+		A23C8C0719796BA5006A4561 /* VKontakteLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C8C0619796BA5006A4561 /* VKontakteLoginDialog.m */; };
+		A2AD9F581993A6AD003C6877 /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AD9F571993A6AD003C6877 /* FriendsListViewController.m */; };
+		A2D4CB55197C46FF008CFC25 /* angelina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D4CB52197C46FF008CFC25 /* angelina.jpg */; };
+		A2D4CB56197C46FF008CFC25 /* depp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D4CB53197C46FF008CFC25 /* depp.jpg */; };
+		A2D4CB57197C46FF008CFC25 /* maltese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D4CB54197C46FF008CFC25 /* maltese.jpg */; };
+		A2D4CB5A197D26F4008CFC25 /* ServerRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB59197D26F4008CFC25 /* ServerRequestManager.m */; };
+		A2D4CB5E197D273F008CFC25 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB5D197D273F008CFC25 /* Friend.m */; };
+		A2D4CB85197D2760008CFC25 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB61197D2760008CFC25 /* AFHTTPRequestOperation.m */; };
+		A2D4CB86197D2760008CFC25 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB63197D2760008CFC25 /* AFHTTPRequestOperationManager.m */; };
+		A2D4CB87197D2760008CFC25 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB65197D2760008CFC25 /* AFHTTPSessionManager.m */; };
+		A2D4CB88197D2760008CFC25 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB68197D2760008CFC25 /* AFNetworkReachabilityManager.m */; };
+		A2D4CB89197D2760008CFC25 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB6A197D2760008CFC25 /* AFSecurityPolicy.m */; };
+		A2D4CB8A197D2760008CFC25 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB6C197D2760008CFC25 /* AFURLConnectionOperation.m */; };
+		A2D4CB8B197D2760008CFC25 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB6E197D2760008CFC25 /* AFURLRequestSerialization.m */; };
+		A2D4CB8C197D2760008CFC25 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB70197D2760008CFC25 /* AFURLResponseSerialization.m */; };
+		A2D4CB8D197D2760008CFC25 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB72197D2760008CFC25 /* AFURLSessionManager.m */; };
+		A2D4CB8E197D2760008CFC25 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB75197D2760008CFC25 /* AFNetworkActivityIndicatorManager.m */; };
+		A2D4CB8F197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB77197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.m */; };
+		A2D4CB90197D2760008CFC25 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB79197D2760008CFC25 /* UIAlertView+AFNetworking.m */; };
+		A2D4CB91197D2760008CFC25 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB7B197D2760008CFC25 /* UIButton+AFNetworking.m */; };
+		A2D4CB92197D2760008CFC25 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB7D197D2760008CFC25 /* UIImageView+AFNetworking.m */; };
+		A2D4CB93197D2760008CFC25 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB80197D2760008CFC25 /* UIProgressView+AFNetworking.m */; };
+		A2D4CB94197D2760008CFC25 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB82197D2760008CFC25 /* UIRefreshControl+AFNetworking.m */; };
+		A2D4CB95197D2760008CFC25 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4CB84197D2760008CFC25 /* UIWebView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23C8BF319796B1F006A4561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23C8BC519796B1F006A4561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23C8BCC19796B1F006A4561;
+			remoteInfo = VKontakte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A23C8BCD19796B1F006A4561 /* VKontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23C8BD019796B1F006A4561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A23C8BD219796B1F006A4561 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A23C8BD419796B1F006A4561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A23C8BD819796B1F006A4561 /* VKontakte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKontakte-Info.plist"; sourceTree = "<group>"; };
+		A23C8BDA19796B1F006A4561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A23C8BDC19796B1F006A4561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23C8BDE19796B1F006A4561 /* VKontakte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKontakte-Prefix.pch"; sourceTree = "<group>"; };
+		A23C8BDF19796B1F006A4561 /* AuthorizationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationAppDelegate.h; sourceTree = "<group>"; };
+		A23C8BE019796B1F006A4561 /* AuthorizationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationAppDelegate.m; sourceTree = "<group>"; };
+		A23C8BE319796B1F006A4561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23C8BE519796B1F006A4561 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		A23C8BE619796B1F006A4561 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		A23C8BE819796B1F006A4561 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A23C8BEE19796B1F006A4561 /* VKontakteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKontakteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23C8BEF19796B1F006A4561 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A23C8BF719796B1F006A4561 /* VKontakteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKontakteTests-Info.plist"; sourceTree = "<group>"; };
+		A23C8BF919796B1F006A4561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A23C8BFB19796B1F006A4561 /* VKontakteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKontakteTests.m; sourceTree = "<group>"; };
+		A23C8C0519796BA5006A4561 /* VKontakteLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKontakteLoginDialog.h; sourceTree = "<group>"; };
+		A23C8C0619796BA5006A4561 /* VKontakteLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKontakteLoginDialog.m; sourceTree = "<group>"; };
+		A2AD9F561993A6AD003C6877 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListViewController.h; sourceTree = "<group>"; };
+		A2AD9F571993A6AD003C6877 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListViewController.m; sourceTree = "<group>"; };
+		A2D4CB52197C46FF008CFC25 /* angelina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angelina.jpg; sourceTree = "<group>"; };
+		A2D4CB53197C46FF008CFC25 /* depp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = depp.jpg; sourceTree = "<group>"; };
+		A2D4CB54197C46FF008CFC25 /* maltese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maltese.jpg; sourceTree = "<group>"; };
+		A2D4CB58197D26F4008CFC25 /* ServerRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerRequestManager.h; sourceTree = "<group>"; };
+		A2D4CB59197D26F4008CFC25 /* ServerRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerRequestManager.m; sourceTree = "<group>"; };
+		A2D4CB5C197D273F008CFC25 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		A2D4CB5D197D273F008CFC25 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		A2D4CB60197D2760008CFC25 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A2D4CB61197D2760008CFC25 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A2D4CB62197D2760008CFC25 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A2D4CB63197D2760008CFC25 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A2D4CB64197D2760008CFC25 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A2D4CB65197D2760008CFC25 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A2D4CB66197D2760008CFC25 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A2D4CB67197D2760008CFC25 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A2D4CB68197D2760008CFC25 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A2D4CB69197D2760008CFC25 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A2D4CB6A197D2760008CFC25 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A2D4CB6B197D2760008CFC25 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A2D4CB6C197D2760008CFC25 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A2D4CB6D197D2760008CFC25 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A2D4CB6E197D2760008CFC25 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A2D4CB6F197D2760008CFC25 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A2D4CB70197D2760008CFC25 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A2D4CB71197D2760008CFC25 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A2D4CB72197D2760008CFC25 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A2D4CB74197D2760008CFC25 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A2D4CB75197D2760008CFC25 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A2D4CB76197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB77197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB78197D2760008CFC25 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB79197D2760008CFC25 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB7A197D2760008CFC25 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB7B197D2760008CFC25 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB7C197D2760008CFC25 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB7D197D2760008CFC25 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB7E197D2760008CFC25 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB7F197D2760008CFC25 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB80197D2760008CFC25 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB81197D2760008CFC25 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB82197D2760008CFC25 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A2D4CB83197D2760008CFC25 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A2D4CB84197D2760008CFC25 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23C8BCA19796B1F006A4561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C8BD319796B1F006A4561 /* CoreGraphics.framework in Frameworks */,
+				A23C8BD519796B1F006A4561 /* UIKit.framework in Frameworks */,
+				A23C8BD119796B1F006A4561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23C8BEB19796B1F006A4561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C8BF019796B1F006A4561 /* XCTest.framework in Frameworks */,
+				A23C8BF219796B1F006A4561 /* UIKit.framework in Frameworks */,
+				A23C8BF119796B1F006A4561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23C8BC419796B1F006A4561 = {
+			isa = PBXGroup;
+			children = (
+				A23C8BD619796B1F006A4561 /* VKontakte */,
+				A23C8BF519796B1F006A4561 /* VKontakteTests */,
+				A23C8BCF19796B1F006A4561 /* Frameworks */,
+				A23C8BCE19796B1F006A4561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23C8BCE19796B1F006A4561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23C8BCD19796B1F006A4561 /* VKontakte.app */,
+				A23C8BEE19796B1F006A4561 /* VKontakteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23C8BCF19796B1F006A4561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23C8BD019796B1F006A4561 /* Foundation.framework */,
+				A23C8BD219796B1F006A4561 /* CoreGraphics.framework */,
+				A23C8BD419796B1F006A4561 /* UIKit.framework */,
+				A23C8BEF19796B1F006A4561 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23C8BD619796B1F006A4561 /* VKontakte */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4CB5F197D2760008CFC25 /* AFNetworking */,
+				A2D4CB73197D2760008CFC25 /* UIKit+AFNetworking */,
+				A2D4CB5B197D272B008CFC25 /* Model */,
+				A2AD9F551993A648003C6877 /* FriendsList */,
+				A2AD9F541993A4A0003C6877 /* OAuth */,
+				A23C8BDF19796B1F006A4561 /* AuthorizationAppDelegate.h */,
+				A23C8BE019796B1F006A4561 /* AuthorizationAppDelegate.m */,
+				A23C8BE219796B1F006A4561 /* Main.storyboard */,
+				A2D4CB58197D26F4008CFC25 /* ServerRequestManager.h */,
+				A2D4CB59197D26F4008CFC25 /* ServerRequestManager.m */,
+				A23C8BE819796B1F006A4561 /* Images.xcassets */,
+				A23C8BD719796B1F006A4561 /* Supporting Files */,
+			);
+			path = VKontakte;
+			sourceTree = "<group>";
+		};
+		A23C8BD719796B1F006A4561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4CB52197C46FF008CFC25 /* angelina.jpg */,
+				A2D4CB53197C46FF008CFC25 /* depp.jpg */,
+				A2D4CB54197C46FF008CFC25 /* maltese.jpg */,
+				A23C8BD819796B1F006A4561 /* VKontakte-Info.plist */,
+				A23C8BD919796B1F006A4561 /* InfoPlist.strings */,
+				A23C8BDC19796B1F006A4561 /* main.m */,
+				A23C8BDE19796B1F006A4561 /* VKontakte-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23C8BF519796B1F006A4561 /* VKontakteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23C8BFB19796B1F006A4561 /* VKontakteTests.m */,
+				A23C8BF619796B1F006A4561 /* Supporting Files */,
+			);
+			path = VKontakteTests;
+			sourceTree = "<group>";
+		};
+		A23C8BF619796B1F006A4561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23C8BF719796B1F006A4561 /* VKontakteTests-Info.plist */,
+				A23C8BF819796B1F006A4561 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2AD9F541993A4A0003C6877 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				A23C8BE519796B1F006A4561 /* AuthorizationViewController.h */,
+				A23C8BE619796B1F006A4561 /* AuthorizationViewController.m */,
+				A23C8C0519796BA5006A4561 /* VKontakteLoginDialog.h */,
+				A23C8C0619796BA5006A4561 /* VKontakteLoginDialog.m */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
+		A2AD9F551993A648003C6877 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD9F561993A6AD003C6877 /* FriendsListViewController.h */,
+				A2AD9F571993A6AD003C6877 /* FriendsListViewController.m */,
+			);
+			name = FriendsList;
+			sourceTree = "<group>";
+		};
+		A2D4CB5B197D272B008CFC25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4CB5C197D273F008CFC25 /* Friend.h */,
+				A2D4CB5D197D273F008CFC25 /* Friend.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2D4CB5F197D2760008CFC25 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4CB60197D2760008CFC25 /* AFHTTPRequestOperation.h */,
+				A2D4CB61197D2760008CFC25 /* AFHTTPRequestOperation.m */,
+				A2D4CB62197D2760008CFC25 /* AFHTTPRequestOperationManager.h */,
+				A2D4CB63197D2760008CFC25 /* AFHTTPRequestOperationManager.m */,
+				A2D4CB64197D2760008CFC25 /* AFHTTPSessionManager.h */,
+				A2D4CB65197D2760008CFC25 /* AFHTTPSessionManager.m */,
+				A2D4CB66197D2760008CFC25 /* AFNetworking.h */,
+				A2D4CB67197D2760008CFC25 /* AFNetworkReachabilityManager.h */,
+				A2D4CB68197D2760008CFC25 /* AFNetworkReachabilityManager.m */,
+				A2D4CB69197D2760008CFC25 /* AFSecurityPolicy.h */,
+				A2D4CB6A197D2760008CFC25 /* AFSecurityPolicy.m */,
+				A2D4CB6B197D2760008CFC25 /* AFURLConnectionOperation.h */,
+				A2D4CB6C197D2760008CFC25 /* AFURLConnectionOperation.m */,
+				A2D4CB6D197D2760008CFC25 /* AFURLRequestSerialization.h */,
+				A2D4CB6E197D2760008CFC25 /* AFURLRequestSerialization.m */,
+				A2D4CB6F197D2760008CFC25 /* AFURLResponseSerialization.h */,
+				A2D4CB70197D2760008CFC25 /* AFURLResponseSerialization.m */,
+				A2D4CB71197D2760008CFC25 /* AFURLSessionManager.h */,
+				A2D4CB72197D2760008CFC25 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A2D4CB73197D2760008CFC25 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4CB74197D2760008CFC25 /* AFNetworkActivityIndicatorManager.h */,
+				A2D4CB75197D2760008CFC25 /* AFNetworkActivityIndicatorManager.m */,
+				A2D4CB76197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.h */,
+				A2D4CB77197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.m */,
+				A2D4CB78197D2760008CFC25 /* UIAlertView+AFNetworking.h */,
+				A2D4CB79197D2760008CFC25 /* UIAlertView+AFNetworking.m */,
+				A2D4CB7A197D2760008CFC25 /* UIButton+AFNetworking.h */,
+				A2D4CB7B197D2760008CFC25 /* UIButton+AFNetworking.m */,
+				A2D4CB7C197D2760008CFC25 /* UIImageView+AFNetworking.h */,
+				A2D4CB7D197D2760008CFC25 /* UIImageView+AFNetworking.m */,
+				A2D4CB7E197D2760008CFC25 /* UIKit+AFNetworking.h */,
+				A2D4CB7F197D2760008CFC25 /* UIProgressView+AFNetworking.h */,
+				A2D4CB80197D2760008CFC25 /* UIProgressView+AFNetworking.m */,
+				A2D4CB81197D2760008CFC25 /* UIRefreshControl+AFNetworking.h */,
+				A2D4CB82197D2760008CFC25 /* UIRefreshControl+AFNetworking.m */,
+				A2D4CB83197D2760008CFC25 /* UIWebView+AFNetworking.h */,
+				A2D4CB84197D2760008CFC25 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23C8BCC19796B1F006A4561 /* VKontakte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23C8BFF19796B1F006A4561 /* Build configuration list for PBXNativeTarget "VKontakte" */;
+			buildPhases = (
+				A23C8BC919796B1F006A4561 /* Sources */,
+				A23C8BCA19796B1F006A4561 /* Frameworks */,
+				A23C8BCB19796B1F006A4561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKontakte;
+			productName = VKontakte;
+			productReference = A23C8BCD19796B1F006A4561 /* VKontakte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23C8BED19796B1F006A4561 /* VKontakteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23C8C0219796B1F006A4561 /* Build configuration list for PBXNativeTarget "VKontakteTests" */;
+			buildPhases = (
+				A23C8BEA19796B1F006A4561 /* Sources */,
+				A23C8BEB19796B1F006A4561 /* Frameworks */,
+				A23C8BEC19796B1F006A4561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23C8BF419796B1F006A4561 /* PBXTargetDependency */,
+			);
+			name = VKontakteTests;
+			productName = VKontakteTests;
+			productReference = A23C8BEE19796B1F006A4561 /* VKontakteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23C8BC519796B1F006A4561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Authorization;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oleg Pochtovy";
+				TargetAttributes = {
+					A23C8BED19796B1F006A4561 = {
+						TestTargetID = A23C8BCC19796B1F006A4561;
+					};
+				};
+			};
+			buildConfigurationList = A23C8BC819796B1F006A4561 /* Build configuration list for PBXProject "VKontakte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23C8BC419796B1F006A4561;
+			productRefGroup = A23C8BCE19796B1F006A4561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23C8BCC19796B1F006A4561 /* VKontakte */,
+				A23C8BED19796B1F006A4561 /* VKontakteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23C8BCB19796B1F006A4561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C8BE919796B1F006A4561 /* Images.xcassets in Resources */,
+				A2D4CB57197C46FF008CFC25 /* maltese.jpg in Resources */,
+				A2D4CB56197C46FF008CFC25 /* depp.jpg in Resources */,
+				A23C8BDB19796B1F006A4561 /* InfoPlist.strings in Resources */,
+				A2D4CB55197C46FF008CFC25 /* angelina.jpg in Resources */,
+				A23C8BE419796B1F006A4561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23C8BEC19796B1F006A4561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C8BFA19796B1F006A4561 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23C8BC919796B1F006A4561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4CB8D197D2760008CFC25 /* AFURLSessionManager.m in Sources */,
+				A23C8BE119796B1F006A4561 /* AuthorizationAppDelegate.m in Sources */,
+				A2D4CB5A197D26F4008CFC25 /* ServerRequestManager.m in Sources */,
+				A2D4CB88197D2760008CFC25 /* AFNetworkReachabilityManager.m in Sources */,
+				A2D4CB8E197D2760008CFC25 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A23C8C0719796BA5006A4561 /* VKontakteLoginDialog.m in Sources */,
+				A2D4CB8A197D2760008CFC25 /* AFURLConnectionOperation.m in Sources */,
+				A2D4CB93197D2760008CFC25 /* UIProgressView+AFNetworking.m in Sources */,
+				A2D4CB87197D2760008CFC25 /* AFHTTPSessionManager.m in Sources */,
+				A2D4CB8B197D2760008CFC25 /* AFURLRequestSerialization.m in Sources */,
+				A2D4CB5E197D273F008CFC25 /* Friend.m in Sources */,
+				A2D4CB91197D2760008CFC25 /* UIButton+AFNetworking.m in Sources */,
+				A2AD9F581993A6AD003C6877 /* FriendsListViewController.m in Sources */,
+				A2D4CB92197D2760008CFC25 /* UIImageView+AFNetworking.m in Sources */,
+				A23C8BDD19796B1F006A4561 /* main.m in Sources */,
+				A23C8BE719796B1F006A4561 /* AuthorizationViewController.m in Sources */,
+				A2D4CB90197D2760008CFC25 /* UIAlertView+AFNetworking.m in Sources */,
+				A2D4CB95197D2760008CFC25 /* UIWebView+AFNetworking.m in Sources */,
+				A2D4CB8F197D2760008CFC25 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				A2D4CB86197D2760008CFC25 /* AFHTTPRequestOperationManager.m in Sources */,
+				A2D4CB94197D2760008CFC25 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A2D4CB89197D2760008CFC25 /* AFSecurityPolicy.m in Sources */,
+				A2D4CB8C197D2760008CFC25 /* AFURLResponseSerialization.m in Sources */,
+				A2D4CB85197D2760008CFC25 /* AFHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23C8BEA19796B1F006A4561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C8BFC19796B1F006A4561 /* VKontakteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23C8BF419796B1F006A4561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23C8BCC19796B1F006A4561 /* VKontakte */;
+			targetProxy = A23C8BF319796B1F006A4561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23C8BD919796B1F006A4561 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23C8BDA19796B1F006A4561 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A23C8BE219796B1F006A4561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23C8BE319796B1F006A4561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23C8BF819796B1F006A4561 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23C8BF919796B1F006A4561 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23C8BFD19796B1F006A4561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23C8BFE19796B1F006A4561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23C8C0019796B1F006A4561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				INFOPLIST_FILE = "VKontakte/VKontakte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A23C8C0119796B1F006A4561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				INFOPLIST_FILE = "VKontakte/VKontakte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A23C8C0319796B1F006A4561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKontakte.app/VKontakte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VKontakteTests/VKontakteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A23C8C0419796B1F006A4561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKontakte.app/VKontakte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				INFOPLIST_FILE = "VKontakteTests/VKontakteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23C8BC819796B1F006A4561 /* Build configuration list for PBXProject "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C8BFD19796B1F006A4561 /* Debug */,
+				A23C8BFE19796B1F006A4561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23C8BFF19796B1F006A4561 /* Build configuration list for PBXNativeTarget "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C8C0019796B1F006A4561 /* Debug */,
+				A23C8C0119796B1F006A4561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23C8C0219796B1F006A4561 /* Build configuration list for PBXNativeTarget "VKontakteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C8C0319796B1F006A4561 /* Debug */,
+				A23C8C0419796B1F006A4561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23C8BC519796B1F006A4561 /* Project object */;
+}
